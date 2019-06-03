@@ -6,11 +6,11 @@ body{
 }
 
 #pagina-dono{
-    background-image: url("../img/fundo.png");
+    background-image: url("../img/planodefundo.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
-    height: 98vh;
+    width: 100%;
+    height: 100%;
 }
 
 .fundo-branco{
@@ -19,10 +19,12 @@ body{
 }
 
 .saudacao{
-    text-align: center;
+    position: relative;
     color: #F59940;
     padding-top: 2rem;
-    font-size: 3rem;
+    font-size: 4vw;
+    float: left;
+    left: 32%;
 }
 
 .botao-sair{
@@ -31,12 +33,16 @@ body{
     margin-right: 2rem;
     text-align: center;
     color: #F59940;
-    top: -70px;
+    padding-top: 2rem;
 }
 
 .imagem-sair{
     position: relative;
-    width: 60px;
+    width: 4vw;
+}
+
+.nome-sair{
+    font-size: 1.5vw;
 }
 
 #cor-laranja{
@@ -56,14 +62,43 @@ body{
 
 .letra-colunas{
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5vw;
 }
 
 .itens-conluna{
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 .quantidades-itens{
     float: right;
     color: white;
+}
+
+#dias-hospedagem{
+    color: white;
+    font-size: 4vw;
+}
+
+#total-hospedagem{
+    color: white;
+    font-size: 4vw;
+    position: relative;
+    top: 13%;
+}
+
+#letra-link-comentario{
+    color: #F59940;
+    font-size: 4vw;
+}
+
+#botao-comentario{
+    background-color: #F59940;
+    padding: 2px 5rem;
+    border: none;
+    border-radius: 15px;
+    font-size: 3vw;
+}
+
+#botao-comentario:hover{
+    background-color: #C9762C;
 }
