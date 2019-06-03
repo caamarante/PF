@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#pagina-dono{
+    background-image: url("../img/fundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 98vh;
+}
+
+.fundo-branco{
+    margin: 0 2rem;
+    background-color: white;
+}
+
+.saudacao{
+    text-align: center;
+    color: #F59940;
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+
+.botao-sair{
+    position: relative;
+    float: right;
+    margin-right: 2rem;
+    text-align: center;
+    color: #F59940;
+    top: -70px;
+}
+
+.imagem-sair{
+    position: relative;
+    width: 60px;
+}
+
+.fundo-laranja{
+    background-color: #F59940;
+}
+
+.colunas{
+    margin: 6rem 0;
+    width: 100%;
+    
+}
