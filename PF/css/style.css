@@ -39,6 +39,11 @@ body{
     width: 60px;
 }
 
+#cor-laranja{
+    color: #F59940;
+    text-decoration: none;
+}
+
 .fundo-laranja{
     background-color: #F59940;
 }
@@ -47,4 +52,18 @@ body{
     margin: 6rem 0;
     width: 100%;
     
+}
+
+.letra-colunas{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.itens-conluna{
+    font-size: 2rem;
+}
+
+.quantidades-itens{
+    float: right;
+    color: white;
 }
