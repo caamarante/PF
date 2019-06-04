@@ -2,4 +2,68 @@
     .fundo-laranja{
         margin: 1rem 0!important;
     }
+    #total-hospedagem{
+        top: 0;
+        margin-top: 2rem!important;
+    }
+    #colunas1{
+        margin-bottom: 1rem!important;
+    }
+    .itens-coluna{
+        font-size: 3vw;
+    }
+    .letra-colunas{
+        font-size: 3.5vw;
+    }
+    #dias-hospedagem{
+        margin-top: 1rem!important;
+    }
+    #diminuir-padding{
+        padding-bottom: 1rem!important;
+    }
+    .saudacao{
+        font-size: 6vw;
+        float: left;
+        left: 20%;
+    }
+    .botao-sair{
+        padding-top: 0.3rem;
+        margin-right: 0.5rem;
+    }
+    .imagem-sair{
+        width: 5vw;
+    }
+    .nome-sair{
+        font-size: 2vw;
+    }
+    #letra-link-comentario{
+        font-size: 6vw;
+    }
+    #botao-comentario{
+        padding: 4px 3rem;
+        font-size: 4vw;
+    }
+    .letra-footer{
+        font-size: 2.2vw;
+    }
+}
+@media (max-width:576px){
+    .fundo-branco{
+        margin: 0 1rem;
+    }
+    .imagem-sair{
+        width: 6vw;
+    }
+    .nome-sair{
+        font-size: 2.5vw;
+    }
+    .itens-coluna{
+        font-size: 4vw;
+    }
+    .letra-colunas{
+        font-size: 4.5vw;
+    }
+    .letra-footer{
+        font-size: 3.2vw;
+    }
 }
