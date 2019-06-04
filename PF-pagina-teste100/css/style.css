@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+html,body{
+    width: 100%;
+    height:100%;
+}
+header {
+    height: 100%;
+}
+
+#pagina-dono{
+    background-image: url("../img/planodefundo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.fundo-branco{
+    margin: 0 2rem;
+    background-color: white;
+    padding-bottom: 2rem;
+}
+
+.saudacao{
+    position: relative;
+    color: #F59940;
+    padding-top: 1.5rem;
+    font-size: 4vw;
+    float: left;
+    left: 32%;
+}
+
+.botao-sair{
+    position: relative;
+    float: right;
+    margin-right: 2rem;
+    text-align: center;
+    color: #F59940;
+    padding-top: 1.5rem;
+}
+
+.imagem-sair{
+    position: relative;
+    width: 4vw;
+}
+
+.nome-sair{
+    font-size: 1.5vw;
+}
+
+#cor-laranja{
+    color: #F59940;
+    text-decoration: none;
+}
+
+.fundo-laranja{
+    background-color: #F59940;
+}
+
+.colunas{
+    margin: 6rem 0;
+    width: 100%;
+    
+}
+
+.letra-colunas{
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.itens-coluna{
+    font-size: 2vw;
+}
+
+.quantidades-itens{
+    float: right;
+    color: white;
+}
+
+#dias-hospedagem{
+    color: white;
+    font-size: 4vw;
+}
+
+#total-hospedagem{
+    color: white;
+    font-size: 4vw;
+    position: relative;
+    top: 13%;
+}
+
+#letra-link-comentario{
+    color: #F59940;
+    font-size: 3.5vw;
+}
+
+#botao-comentario{
+    background-color: #F59940;
+    padding: 2px 5rem;
+    border: none;
+    border-radius: 15px;
+    font-size: 3vw;
+}
+
+#botao-comentario:hover{
+    background-color: #C9762C;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer{
+    text-align: center;
+    background-color: #01A8DF;
+    color: white;
+}
+
+.footer h5{
+    margin: 0;
+}
+
+.letra-footer{
+    font-size: 1.2vw;
+    margin: 0;
+}
