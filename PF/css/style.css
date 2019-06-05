@@ -4,8 +4,7 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-
-#pagina-dono{
+#pagina-cliente{
     background-image: url("../img/planodefundo.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,13 +15,13 @@ body{
 .fundo-branco{
     margin: 0 2rem;
     background-color: white;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 
 .saudacao{
     position: relative;
     color: #F59940;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     font-size: 4vw;
     float: left;
     left: 32%;
@@ -34,7 +33,7 @@ body{
     margin-right: 2rem;
     text-align: center;
     color: #F59940;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
 }
 
 .imagem-sair{
@@ -89,7 +88,7 @@ body{
 
 #letra-link-comentario{
     color: #F59940;
-    font-size: 4vw;
+    font-size: 3.5vw;
 }
 
 #botao-comentario{
@@ -122,4 +121,104 @@ body{
 .letra-footer{
     font-size: 1.2vw;
     margin: 0;
+}
+
+
+/* pagina do dono */
+
+#pagina-dono{
+    background-image: url('../img/fundo-dono.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+#saudacao-dono{
+    color: #689D27;
+    left: 26%;
+}
+
+#cor-verde{
+    color: #689D27;
+    text-decoration: none;
+}
+
+#fundo-branco-dono{
+    margin: 0 6rem;
+    height: 100%;
+}
+
+#pesquisar-cliente{
+    position: relative;
+}
+
+#letra-pesquisa{
+    font-size: 3vw;
+    margin-left: 1rem;
+}
+
+#lugar-da-pesquisa{
+    text-align: center;
+}
+
+#input-pesquisar{
+    margin-top: 3%;
+    width: 60%;
+    border-radius: 10px;
+    border: #80751A 1px solid;
+    background-color: rgba(0, 0, 0, 0.15);
+    font-size: 2vw;
+    color: #80751A;
+    padding: 5px;
+}
+
+tr{
+    font-size: 1.5vw;
+}
+
+#imagem-lixo{
+    width: 2vw;
+}
+
+#tabela{
+    width: 96%;
+    background-color: rgba(196, 196, 196, 0.13);
+    position: relative;
+    left: 2%;
+}
+
+#letra-cadastrar{
+    font-size: 2.5vw;
+    margin-left: 2rem;
+}
+
+#row-cadastrar{
+    margin: 0 0 0 1rem;
+}
+
+.input-cadastrar{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    border: #80751A 1px solid;
+    background-color: rgba(0, 0, 0, 0.15);
+    font-size: 2vw;
+}
+
+#input-email{
+    width: 90%;
+}
+
+#botao-cadastrar{
+    padding: 5px 4rem;
+    border-radius: 10px;
+    background-color: #689D27;
+    font-size: 2vw;
+    color: white;
+    border: none;
+}
+
+#botao-cadastrar:hover{
+    background-color: #80751A;
 }

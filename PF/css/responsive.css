@@ -46,7 +46,38 @@
     .letra-footer{
         font-size: 2.2vw;
     }
+    #saudacao-dono{
+        font-size: 4vw;
+        left: 23%;
+    }
+    #tabela{
+        overflow-x:auto;
+        display: block;
+    }
+    .input-cadastrar{
+        margin: 0!important;
+    }
+    #row-cadastrar{
+        margin: 0;
+    }
+    #input-email{
+        width: 100%;
+    }
+    #tirar-padding-botao{
+        padding-left: 0!important;
+        text-align: center;
+    }
+    #botao-cadastrar{
+        padding: 5px 2rem;
+    }
 }
+
+@media (max-width:992px){
+    tr{
+        font-size: 2vw;
+    }
+}
+
 @media (max-width:576px){
     .fundo-branco{
         margin: 0 1rem;
@@ -65,5 +96,29 @@
     }
     .letra-footer{
         font-size: 3.2vw;
+    }
+    tr{
+        font-size: 2.5vw;
+    }
+    #saudacao-dono{
+        font-size: 4.5vw;
+        left: 25%;
+    }
+    #letra-cadastrar{
+        font-size: 3vw;
+    }
+    .input-cadastrar{
+        font-size: 2.5vw;
+    }
+    #fundo-branco-dono{
+        margin: 0 2rem;
+    }
+    #letra-pesquisa{
+        font-size: 3.5vw;
+        margin-left: 0;
+        text-align: center;
+    }
+    #botao-cadastrar{
+        font-size: 3vw;
     }
 }

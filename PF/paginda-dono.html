@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Marés do caribe</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    
+
+    <section id="pagina-dono">
+        <div class="container-fluid">
+            <div class="fundo-branco" id="fundo-branco-dono">
+                <p class="saudacao" id="saudacao-dono">Bem-vindo, Matheus!</p>
+                    <div class="botao-sair">
+                        <a href="" id="cor-verde">
+                            <img src="img/sair-verde.png" class="imagem-sair">
+                            <p class="nome-sair">Sair</p>
+                        </a>
+                    </div>
+                <div class="row colunas justify-content-center mb-3">
+                    <div class="col-10 col-sm-6">
+                        <p id="letra-pesquisa">Pesquise o nome do cliente:</p>
+                    </div>
+                    <div class="col-10 col-sm-6 justify-content-center" id="lugar-da-pesquisa">
+                        <input type="text" id="input-pesquisar">
+                    </div>
+                </div>
+                <table class="table scroll-tabela" id="tabela">
+                    <thead>
+                        <tr class="text-center">
+                            <th scope="col">Quarto</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">E-mail</th>
+                            <th scope="col">Consumo</th>
+                            <th scope="col">Total</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="text-center">
+                            <th scope="row">100</th>
+                            <td>Rodrigo</td>
+                            <td>Rodrigo@mail.com</td>
+                            <td>4 itens</td>
+                            <td>R$200,00</td>
+                            <td><img src="img/lixo.png" id="imagem-lixo" alt=""></td>
+                        </tr>
+                        <tr class="text-center">
+                            <th scope="row">110</th>
+                            <td>Rodrigo</td>
+                            <td>Rodrigo@mail.com</td>
+                            <td>4 itens</td>
+                            <td>R$200,00</td>
+                            <td><img src="img/lixo.png" id="imagem-lixo" alt=""></td>
+                        </tr>
+                        <tr class="text-center">
+                            <th scope="row">120</th>
+                            <td>Rodrigo</td>
+                            <td>Rodrigo@mail.com</td>
+                            <td>4 itens</td>
+                            <td>R$200,00</td>
+                            <td><img src="img/lixo.png" id="imagem-lixo" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div id="cadastrar-cliente">
+                    <p id="letra-cadastrar">Cadastrar Cliente:</p>
+                    <div class="row justify-content-center" id="row-cadastrar">
+                        <div class="col-10 col-sm-6 col-md-2">
+                            <input type="text" class="input-cadastrar" placeholder="Quarto">
+                        </div>
+                        <div class="col-10 col-sm-6 col-md-4 mt-2 mt-sm-0">
+                            <input type="text" class="input-cadastrar ml-2" placeholder="Nome">
+                        </div>
+                        <div class="col-10 col-sm-6  mt-2 mt-md-0">
+                            <input type="text" class="input-cadastrar ml-2" id="input-email" placeholder="E-mail">
+                        </div>
+                        <div class="col-10 col-sm-6 col-md-4 mt-2 mt-md-4">
+                            <input type="password" class="input-cadastrar" placeholder="Senha">
+                        </div>
+                        <div class="col-10 col-sm-4 col-md-8 mt-4" id="tirar-padding-botao">
+                            <button type="submit" class="ml-md-5" id="botao-cadastrar">Cadastrar</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="letra-footer">Desenvolvido por <a href="">Praxis - Empresa jr.</a> | Todos os direitos reservados</p class="letra-footer">
+    </footer>
+
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
