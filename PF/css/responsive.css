@@ -69,6 +69,7 @@
     }
     #botao-cadastrar{
         padding: 5px 2rem;
+        font-size: 2.5vw;
     }
 }
 
@@ -78,7 +79,7 @@
     }
 }
 
-@media (max-width:576px){
+@media (max-width:687px){
     .fundo-branco{
         margin: 0 1rem;
     }
@@ -95,7 +96,7 @@
         font-size: 4.5vw;
     }
     .letra-footer{
-        font-size: 3.2vw;
+        font-size: 2.8vw;
     }
     tr{
         font-size: 2.5vw;
@@ -119,6 +120,30 @@
         text-align: center;
     }
     #botao-cadastrar{
-        font-size: 3vw;
+        font-size: 3.5vw;
+    }
+}
+@media (max-width:500px){
+    tr{
+        font-size: 3.5vw;
+    }
+    #saudacao-dono{
+        font-size: 5.5vw;
+        left: 21%;
+    }
+    #letra-pesquisa{
+        font-size: 4.5vw;
+    }
+    #letra-cadastrar{
+        font-size: 4vw;
+    }
+    .input-cadastrar,#input-pesquisar{
+        font-size: 3.5vw;
+    }
+    #botao-cadastrar{
+        font-size: 4vw;
+    }
+    #fundo-branco-dono{
+        margin: 0 1rem;
     }
 }
