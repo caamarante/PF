@@ -80,6 +80,9 @@
     .quartos{
         margin: 4rem 6rem 2rem 6rem;
     }
+    .texto-descricao{
+        font-size: 8.5vw;
+    }
 }
 
 @media (max-width:687px){
@@ -125,6 +128,9 @@
     #botao-cadastrar{
         font-size: 3.5vw;
     }
+    .letra-nome-quarto{
+        font-size: 7.3vw;
+    }
 }
 @media (max-width:500px){
     tr{
@@ -152,20 +158,50 @@
     .letra-footer{
         font-size: 3vw;
     }
+    .tamanho-texto-acomodacao{
+        font-size: 5.5vw;
+    }
+    .tamanho-texto-valor{
+        font-size: 3vw;
+    }
+    .texto-descricao{
+        font-size: 8.5vw;
+        width: 100%;
+    }
+    
 }
 @media (max-width:1200px){
-    .texto-descrição{
-        font-size: 1.8vw;
+    .texto-descricao{
+        font-size: 2.2vw;
     }
     .tamanho-texto-acomodacao{
-        font-size: 2.7vw;
+        font-size: 2.5vw;
         position: relative;
     }
     .tamanho-texto-valor{
-        font-size: 5.2vw;
+        font-size: 3vw;
     }
     .margem-descricao{
         position: relative;
         left: 10%;
+    }
+}
+@media (max-width: 578px){
+    .texto-descricao{
+        left: 0;
+        font-size: 3.4vw;
+    }
+    .margem-descricao{
+        position: relative;
+        left: 0;
+    }
+    .tamanho-texto-acomodacao{
+        font-size: 4vw;
+    }
+    .tamanho-texto-valor{
+        font-size: 4.5vw;
+    }
+    .letra-nome-quarto{
+        font-size: 6.5vw;   
     }
 }

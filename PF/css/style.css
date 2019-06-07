@@ -255,12 +255,12 @@ tr{
     font-size: 3vw;
 }
 
-.texto-descrição{
+.texto-descricao{
     text-align: justify;
     width: 100%;
     position: relative;
     left: 10%;
-    font-size: 1.3vw;
+    font-size: 1.8vw;
 }
 
 .margem-descricao{
@@ -269,9 +269,68 @@ tr{
 }
 
 .tamanho-texto-acomodacao{
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 
 .tamanho-texto-valor{
-    font-size: 5vw;
+    font-size: 2.5vw;
+}
+
+.ir-esquerda
+
+/* FAZER LOGIN */
+
+#login{
+    background-image: url('../img/planodefundo.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    height: 96vh;
+}
+
+.botao{
+    font-size: 2rem;
+    background-color: #F59940;
+    border: #C9762C solid 1px;
+    color: white;
+    padding: 0 1rem;
+    border-radius: 15px;
+}
+
+.botao:hover{
+    background-color: #C9762C;
+    color: white;
+}
+
+#botaoinicio{
+    float: left;
+}
+
+#formulario{
+    padding-top: 9%;
+}
+
+#letrafaca{
+    color: white;
+    text-shadow: 0em 0.05em 0.05em rgba(0, 0, 0, 0.6);
+    font-size: 3.5rem;
+}
+
+.estetica-form{
+    width: 35%;
+    padding: 0.375rem 0.75rem;
+    font-size: 2rem;
+    line-height: 1.5;
+    border: none;
+    border-radius: 15px;
+}
+
+#voltar{
+    color: white;
+    text-decoration: none;
+}
+
+#footer-login{
+    height: 4vh;
 }

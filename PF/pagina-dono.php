@@ -1,5 +1,10 @@
 <?php 
-    session_start();
+    session_start(); 
+    
+    if(!$_SESSION['authdono']){
+      header('Location:fazer_login.php?auth=facalogin');
+    }
+
     include('ini.php');
 
     $consulta = "SELECT * FROM clientes";
@@ -30,7 +35,7 @@
             <div class="fundo-branco" id="fundo-branco-dono">
                 <p class="saudacao" id="saudacao-dono">Bem-vindo, Matheus!</p>
                     <div class="botao-sair">
-                        <a href="" id="cor-verde">
+                        <a href="logout.php" id="cor-verde">
                             <img src="img/sair-verde.png" class="imagem-sair">
                             <p class="nome-sair">Sair</p>
                         </a>
@@ -40,7 +45,9 @@
                         <p id="letra-pesquisa">Pesquise o nome do cliente:</p>
                     </div>
                     <div class="col-10 col-sm-6 justify-content-center" id="lugar-da-pesquisa">
-                        <input type="text" id="input-pesquisar">
+                        <form method="POST">
+                            <input type="text" name="pesquisa" onkeyup="myFunction()" id="input-pesquisar">
+                        </form>
                     </div>
                 </div>
                 <table class="table scroll-tabela" id="tabela">
